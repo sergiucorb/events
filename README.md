@@ -5,7 +5,14 @@
 #3.php artisan passport:install<br/>
 
 
-#REST API:
+## REST API:
+
+#NOT AUTH:<br/>
+
+#POST /api/register
+#POST /api/login
+#POST /api/logout
+#GET  /api/filter-event<br/>
 
 #AUTH:
 
@@ -15,6 +22,4 @@
 
 #DELETE /api/event/{id}<br/>
 
-#NOT AUTH:<br/>
 
-#GET  /api/filter-event
