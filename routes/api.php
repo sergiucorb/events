@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::post('register', 'Api\AuthController@register');
 Route::post('login', 'Api\AuthController@login');
 Route::post('logout', 'Api\AuthController@logout');
-Route::get('filter-event', 'Api\EventController@filter');
+Route::get('event', 'Api\EventController@filter');
 
 Route::middleware('auth:api')->group(function () {
     Route::post('event', 'Api\EventController@store');
