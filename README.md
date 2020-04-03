@@ -9,12 +9,12 @@
 
 ### NOT AUTH:<br/>
 
-#POST /api/register
-#POST /api/login
-#POST /api/logout
+#POST /api/register<br/>
+#POST /api/login<br/>
+#POST /api/logout<br/>
 #GET  /api/filter-event<br/>
 
-### AUTH:
+### AUTH: <br/>
 
 #POST   /api/event<br/>
 
