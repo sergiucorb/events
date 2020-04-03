@@ -7,14 +7,14 @@
 
 ## REST API:
 
-#NOT AUTH:<br/>
+### NOT AUTH:<br/>
 
 #POST /api/register
 #POST /api/login
 #POST /api/logout
 #GET  /api/filter-event<br/>
 
-#AUTH:
+### AUTH:
 
 #POST   /api/event<br/>
 
