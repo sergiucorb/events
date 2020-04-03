@@ -12,7 +12,7 @@
 #POST /api/register<br/>
 #POST /api/login<br/>
 #POST /api/logout<br/>
-#GET  /api/filter-event<br/>
+#GET  /api/event<br/>
 
 ### AUTH: <br/>
 
